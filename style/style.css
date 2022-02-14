@@ -1,0 +1,154 @@
+:root{
+    --red: #E50914;
+    --black: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos base*/
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 1%;
+    font-size: 9px;
+
+    height: 65px;
+    background-size: cover;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme Principal*/ 
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/filmes/01\ -\ background_venom.jpg");
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 2.5%;
+    margin-bottom: 8%;
+}
+
+.filme-principal .container{
+    width: 35%;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 12px 40px;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    cursor: pointer;
+    transition: .30s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 4px;
+}
+
+/*footer*/
+
+.footer-geral{
+    margin-left: 4%;
+    margin-bottom: 3%;
+    list-style: none;
+}
+
+footer nav .footer-top{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+footer nav .footer-top-a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+footer div .footer-top-a:hover{
+    color: #fff;
+}
+
+footer nav .links-footer{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+footer div .links-footer:hover{
+    color: #fff;
+}
+
+
+
+footer nav .midia{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+footer div .midia:hover{
+        color: #fff;
+}
