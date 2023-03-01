@@ -4,7 +4,7 @@ This is a project to replicate the Netflix website interface using HTML5, CSS3, 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/<your-username>/Netflix-clone.git`
+1. Clone the repository: `git clone https://github.com/Burntroll/Netflix-clone.git`
 2. Navigate to the project directory: `cd Netflix-clone`
 3. Open the index.html file in your preferred browser.
 
