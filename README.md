@@ -32,4 +32,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Results
 
-![website-image](C:\Projetos\Github - One-by-One\Netflix-clone\website.png)
+![website-image](website.png)
